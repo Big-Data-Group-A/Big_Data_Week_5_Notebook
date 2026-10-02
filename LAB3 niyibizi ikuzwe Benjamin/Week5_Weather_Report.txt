@@ -1,0 +1,10 @@
+AUCA — Introduction to Big Data Analytics
+Week 5 Lab: Kigali Weather Analysis Report
+
+The analysis used 60 daily weather records for Kigali from 1 September to 30 October 2026. The mean temperature across the period was approximately 24.00°C, with a maximum of 28.6°C and a minimum of 19.3°C. There were 18 hot days, defined in the lab as days with temperatures of at least 26°C. The average temperature on those hot days was 27.11°C.
+
+Rainfall was recorded on 16 of the 60 days. Total rainfall over the period was 331.2 mm, and the highest single-day rainfall was 26.2 mm on 7 September 2026. The average temperature on rainy days was 24.14°C, compared with 23.95°C on dry days, so the averages were quite close in this dataset. Five days were both hot and rainy, and 16 days had humidity of at least 70%.
+
+One clear trend is that temperatures were lower in the second half of the dataset. The average for the first 30 days was 26.21°C, while the average for the last 30 days was 21.78°C, a decrease of about 4.43°C. This suggests that Kigali became cooler over the recorded period. This conclusion describes only these 60 records and should not be treated as a general conclusion about Kigali's climate.
+
+The NumPy methods and Boolean masks made it possible to calculate summary statistics and select days meeting conditions without writing loops. This demonstrates how vectorized operations can make data analysis shorter and easier to read.
