@@ -184,11 +184,19 @@
     margin-bottom: 6px;
   }
 
+  .checklist-container {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-top: 18px;
+  }
+
   .checklist-item {
     display: flex;
     align-items: baseline;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     font-size: 10pt;
+    page-break-inside: avoid;
+    break-inside: avoid;
   }
 
   .checklist-status {
@@ -208,7 +216,7 @@
   <div class="meta-grid">
     <div class="meta-item"><span class="meta-label">Student Name:</span> Kwizera Pacifique</div>
     <div class="meta-item"><span class="meta-label">Course:</span> Introduction to Big Data Analytics</div>
-    <div class="meta-item"><span class="meta-label">Student ID:</span> 28064</div>
+    <div class="meta-item"><span class="meta-label">Student ID:</span> 28054</div>
     <div class="meta-item"><span class="meta-label">Instructor:</span> Prince Ishimwe (Prince.ishimwe@auca.ac.rw)</div>
     <div class="meta-item"><span class="meta-label">Academic Term:</span> Semester 1, 2026/2027</div>
     <div class="meta-item"><span class="meta-label">Dataset:</span> week5_kigali_weather.csv (60 records)</div>
@@ -490,14 +498,16 @@ for date, mm in wettest:
   </p>
 </div>
 
-<h2>6. Submission Verification Checklist</h2>
-<div class="checklist-item"><span class="checklist-status">[VERIFIED]</span> Notebook renamed to Week5_KwizeraPacifique.ipynb</div>
-<div class="checklist-item"><span class="checklist-status">[VERIFIED]</span> All code cells executed cleanly without runtime warnings or errors</div>
-<div class="checklist-item"><span class="checklist-status">[VERIFIED]</span> Vectorized NumPy operations used exclusively in Parts 3 through 5 (no for loops)</div>
-<div class="checklist-item"><span class="checklist-status">[VERIFIED]</span> Mean temperature matches lab verification checkpoint (24.00 °C)</div>
-<div class="checklist-item"><span class="checklist-status">[VERIFIED]</span> Bonus problem completed with zip and sorted lambda (+3 marks)</div>
-<div class="checklist-item"><span class="checklist-status">[VERIFIED]</span> Reflection questions thoroughly articulated and analyzed</div>
-<div class="checklist-item"><span class="checklist-status">[VERIFIED]</span> Comprehensive PDF report compiled and formatted without emojis</div>
+<div class="checklist-container">
+  <h2>6. Submission Verification Checklist</h2>
+  <div class="checklist-item"><span class="checklist-status">[VERIFIED]</span> Notebook renamed to Week5_KwizeraPacifique.ipynb</div>
+  <div class="checklist-item"><span class="checklist-status">[VERIFIED]</span> All code cells executed cleanly without runtime warnings or errors</div>
+  <div class="checklist-item"><span class="checklist-status">[VERIFIED]</span> Vectorized NumPy operations used exclusively in Parts 3 through 5 (no for loops)</div>
+  <div class="checklist-item"><span class="checklist-status">[VERIFIED]</span> Mean temperature matches lab verification checkpoint (24.00 °C)</div>
+  <div class="checklist-item"><span class="checklist-status">[VERIFIED]</span> Bonus problem completed with zip and sorted lambda (+3 marks)</div>
+  <div class="checklist-item"><span class="checklist-status">[VERIFIED]</span> Reflection questions thoroughly articulated and analyzed</div>
+  <div class="checklist-item"><span class="checklist-status">[VERIFIED]</span> Comprehensive PDF report compiled and formatted without emojis</div>
+</div>
 
 </body>
 </html>

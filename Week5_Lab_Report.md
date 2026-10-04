@@ -1,7 +1,7 @@
 # AUCA · Introduction to Big Data Analytics
 ## Week 5 Lab Report: Advanced Python + NumPy
 **Student Name:** Kwizera Pacifique  
-**Student ID:** 28064  
+**Student ID:** 28054  
 **Course:** Introduction to Big Data Analytics  
 **Instructor:** Prince Ishimwe (Prince.ishimwe@auca.ac.rw)  
 **Dataset:** `week5_kigali_weather.csv` / `.xlsx` (60 daily records, September–October 2026)
