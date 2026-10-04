@@ -131,11 +131,7 @@ Vectorized conditional indexing was employed across the 60 days without using an
 
 ---
 
-## 4. Final Submission Checklist
+## 4. Interactive Verification & Live Notebook
 
-- [x] **All exercises implemented and tested without errors**
-- [x] **No `for` loops used in Parts 3 through 5 (strictly vectorized NumPy operations and boolean masks)**
-- [x] **Part 6 Reflection questions thoroughly answered**
-- [x] **Bonus problem completed (+3 marks)**
-- [x] **Notebook saved locally as `Week5_KwizeraPacifique.ipynb`**
-- [x] **Colab Action:** Rename Colab notebook title from `Untitled4.ipynb` to `Week5_KwizeraPacifique` before submission.
+The complete executable notebook, along with all code cells and outputs, can be verified directly on Google Colab:
+- **Google Colab URL:** [https://colab.research.google.com/drive/1bJv8RoS6P5ofeqm_rxjdspp8v39sRvoq?usp=sharing](https://colab.research.google.com/drive/1bJv8RoS6P5ofeqm_rxjdspp8v39sRvoq?usp=sharing)
