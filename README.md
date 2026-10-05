@@ -1,9 +1,15 @@
-# Week 5 Lab — Part 6 Reflection
+# Big Data Week 5 — Advanced Python + NumPy
 
-## 1. What did NumPy hide from you, and why was it still important to learn the loop version first?
+**Name:** Waleed Nouh  
+**Student ID:** 27245  
+**Course:** Introduction to Big Data Analytics  
 
-NumPy hides the repeated calculations and makes them simple and fast. Learning loops first was important because it helped me understand what NumPy is doing behind the scenes.
+## Short Report
 
-## 2. One insight about Kigali's weather
+This lab analyzed 60 days of Kigali weather data using Python and NumPy. I used list comprehensions, lambda functions, NumPy arrays, boolean masking, and anomaly analysis.
 
-The analysis showed that Kigali was warmer during the first 30 days than during the last 30 days. The average temperature dropped from about 26.21°C to 21.78°C.
+The average temperature was **24.00°C**, with a maximum of **28.60°C** and a minimum of **19.30°C**. The analysis also showed that the first 30 days were warmer, with an average of **26.21°C**, compared with **21.78°C** for the last 30 days.
+
+One important insight from the analysis is that **Kigali became noticeably cooler during the second half of the period**.
+
+NumPy also made numerical calculations much faster. In the speed test on my machine, NumPy was approximately **48.7 times faster** than the Python loop.
