@@ -62,7 +62,7 @@ List comprehensions were used to filter temperatures based on specific condition
 - `hot` contains temperatures greater than or equal to 26 °C.
 - `cool_rounded` contains temperatures below 24 °C, rounded to the nearest integer.
 
-![Part 1.1 Screenshot](screenshots/part1apng)
+![Part 1.1 Screenshot](Screenshots/part1apng)
 
 ### Exercise 1.3 — Convert Types
 
