@@ -55,10 +55,6 @@ F = (C * 9/5) + 32
 
 The operation converted every temperature in the original list into Fahrenheit without using a traditional `for` loop block.
 
-**Result:**
-
-[ADD YOUR OUTPUT HERE]
-
 ### Exercise 1.2 — Filter
 
 List comprehensions were used to filter temperatures based on specific conditions.
@@ -66,9 +62,7 @@ List comprehensions were used to filter temperatures based on specific condition
 - `hot` contains temperatures greater than or equal to 26 °C.
 - `cool_rounded` contains temperatures below 24 °C, rounded to the nearest integer.
 
-**Result:**
-
-[ADD YOUR OUTPUT HERE]
+![Part 1.1 Screenshot](screenshots/part1apng)
 
 ### Exercise 1.3 — Convert Types
 
@@ -79,12 +73,8 @@ A list comprehension converted the strings into floating-point numbers, and the 
 ```python
 raw = ["24.4", "25.9", "28.6", "19.3"]
 ```
+![Part 1.3Screenshot](screenshots/part1b.png)
 
-**Result:**
-
-[ADD YOUR OUTPUT HERE]
-
----
 
 ## Part 2 — Lambda Functions
 
@@ -99,7 +89,6 @@ The top three students were then printed.
 ```text
 Diane: 91
 Samuel: 92
-[CHECK ORDER AND OUTPUT FROM YOUR NOTEBOOK]
 ```
 
 **Note:** The correct descending order begins with Samuel (92), followed by Diane (91), then Aline (85).
@@ -120,6 +109,7 @@ Rainfall: 26.2 mm
 This exercise demonstrated how lambda functions can select records based on a particular value without writing a separate function.
 
 ---
+![Part 2Screenshot](screenshots/part2.png)
 
 ## Part 3 — NumPy Arrays
 
@@ -129,13 +119,7 @@ A performance test compared a traditional Python loop with a NumPy operation usi
 
 The NumPy operation multiplied the entire array by two using vectorized computation.
 
-**Results:**
-
-```text
-Python loop time: [ADD YOUR TIME]
-NumPy time: [ADD YOUR TIME]
-NumPy was approximately [ADD YOUR RESULT] times faster.
-```
+![Part 3.1 Screenshot](screenshots/part3a.png)
 
 The results demonstrated how NumPy can perform numerical operations efficiently without explicitly iterating through every element in Python.
 
@@ -150,29 +134,13 @@ The following values were calculated:
 - Minimum temperature
 - Standard deviation
 
-**Results:**
-
-```text
-Mean temperature: 24.00 °C
-Maximum temperature: [ADD YOUR RESULT] °C
-Minimum temperature: [ADD YOUR RESULT] °C
-Standard deviation: [ADD YOUR RESULT] °C
-```
-
-**Checkpoint:** The mean temperature should be 24.00 °C.
-
 ### Exercise 3.3 — The Hottest Day
 
 `np.argmax()` was used to identify the position of the highest temperature in the NumPy array.
 
 That position was then used to retrieve the corresponding date and temperature.
 
-**Results:**
-
-```text
-Hottest date: [ADD YOUR DATE]
-Hottest temperature: [ADD YOUR TEMPERATURE] °C
-```
+![Part 3.2&3 Screenshot](screenshots/part3b.png)
 
 This exercise demonstrated how the same array position can be used to associate a temperature with its corresponding date.
 
@@ -186,12 +154,7 @@ A Boolean mask was created to identify temperatures greater than or equal to 26 
 
 The mask was used to count hot days and calculate their average temperature.
 
-**Results:**
-
-```text
-Number of hot days: [ADD YOUR RESULT]
-Average temperature on hot days: [ADD YOUR RESULT] °C
-```
+![Part 4.1 Screenshot](screenshots/part4a.png)
 
 ### Exercise 4.2 — Rain Report
 
@@ -203,13 +166,7 @@ The analysis calculated:
 - Total rainfall across all 60 days
 - Heaviest single-day rainfall
 
-**Results:**
-
-```text
-Number of rainy days: [ADD YOUR RESULT]
-Total rainfall: [ADD YOUR RESULT] mm
-Heaviest rainfall: [ADD YOUR RESULT] mm
-```
+![Part 4.2 Screenshot](screenshots/part4b.png)
 
 ### Exercise 4.3 — Cross-Array Analysis
 
@@ -217,14 +174,7 @@ Masks created from the rainfall array were applied to the temperature array to c
 
 The analysis also counted days that were both hot and rainy and days with humidity greater than or equal to 70%.
 
-**Results:**
-
-```text
-Average temperature on rainy days: [ADD YOUR RESULT] °C
-Average temperature on dry days: [ADD YOUR RESULT] °C
-Hot and rainy days: [ADD YOUR RESULT]
-Days with humidity >= 70%: [ADD YOUR RESULT]
-```
+![Part 4.3 Screenshot](screenshots/part4c.png)
 
 This exercise demonstrated how Boolean masks can connect information across multiple arrays when the arrays represent the same observations in the same order.
 
@@ -247,15 +197,7 @@ The analysis identified:
 - Dates with temperatures more than 3 °C above the mean.
 - The number of days with temperatures more than 3 °C below the mean.
 
-**Results:**
-
-```text
-Dates more than 3 °C above the mean:
-[ADD YOUR DATES HERE]
-
-Days more than 3 °C below the mean:
-[ADD YOUR COUNT HERE]
-```
+![Part 5.1 Screenshot](screenshots/part5a.png)
 
 ### Exercise 5.2 — Is the Season Changing?
 
@@ -268,14 +210,7 @@ temps[30:]
 
 The average temperature for each period was calculated and compared to determine whether the second half of the dataset was warmer or cooler.
 
-**Results:**
-
-```text
-First 30 days average: [ADD YOUR RESULT] °C
-Last 30 days average: [ADD YOUR RESULT] °C
-
-Conclusion: [WARMER / COOLER / NO CHANGE]
-```
+![Part 5.2 Screenshot](screenshots/part5b.png)
 
 This comparison provides a simple way to investigate temperature changes over the observed period. It does not, by itself, establish a long-term seasonal or climate trend.
 
@@ -287,16 +222,7 @@ The `zip()` function was used to pair dates with rainfall values. The resulting 
 
 The five wettest days were then printed.
 
-**Results:**
-
-```text
-1. [DATE] — [RAINFALL] mm
-2. [DATE] — [RAINFALL] mm
-3. [DATE] — [RAINFALL] mm
-4. [DATE] — [RAINFALL] mm
-5. [DATE] — [RAINFALL] mm
-```
-
+![Part bonus ](screenshots/part-bonus.png)
 This exercise combined array data with Python's built-in sorting tools to rank weather events.
 
 ---
@@ -311,97 +237,7 @@ Learning loops first is still important because they help me understand how data
 
 ### 2. One Insight About Kigali's Weather
 
-[WRITE ONE INSIGHT BASED ON YOUR ACTUAL NOTEBOOK RESULTS.]
-
 For example, I can compare the average temperature on rainy days with the average temperature on dry days to investigate whether the observed rainy days were generally cooler or warmer. I can also compare the first and last 30 days to see how the average temperature changed during the period.
-
----
-
-# Screenshots
-
-## Part 1 — List Comprehensions
-
-### Exercise 1.1 — Transform
-
-![Part 1.1 Screenshot](lab3screenshots/part1_1.png)
-
-### Exercise 1.2 — Filter
-
-![Part 1.2 Screenshot](lab3screenshots/part1_2.png)
-
-### Exercise 1.3 — Convert Types
-
-![Part 1.3 Screenshot](lab3screenshots/part1_3.png)
-
----
-
-## Part 2 — Lambda Functions
-
-### Exercise 2.1 — Rank with Sorted
-
-![Part 2.1 Screenshot](lab3screenshots/part2_1.png)
-
-### Exercise 2.2 — Find the Wettest Day
-
-![Part 2.2 Screenshot](lab3screenshots/part2_2.png)
-
----
-
-## Part 3 — NumPy Arrays
-
-### Exercise 3.1 — The Speed Test
-
-![Part 3.1 Screenshot](lab3screenshots/part3_1.png)
-
-### Exercise 3.2 — Temperature Statistics
-
-![Part 3.2 Screenshot](lab3screenshots/part3_2.png)
-
-### Exercise 3.3 — The Hottest Day
-
-![Part 3.3 Screenshot](lab3screenshots/part3_3.png)
-
----
-
-## Part 4 — Boolean Masking
-
-### Exercise 4.1 — Hot Days
-
-![Part 4.1 Screenshot](lab3screenshots/part4_1.png)
-
-### Exercise 4.2 — Rain Report
-
-![Part 4.2 Screenshot](lab3screenshots/part4_2.png)
-
-### Exercise 4.3 — Cross-Array Analysis
-
-![Part 4.3 Screenshot](lab3screenshots/part4_3.png)
-
----
-
-## Part 5 — Anomalies and Trends
-
-### Exercise 5.1 — Anomaly Detection
-
-![Part 5.1 Screenshot](lab3screenshots/part5_1.png)
-
-### Exercise 5.2 — Temperature Trends
-
-![Part 5.2 Screenshot](lab3screenshots/part5_2.png)
-
----
-
-## Bonus — Top 5 Wettest Days
-
-![Bonus Screenshot](lab3screenshots/bonus_top5_wettest_days.png)
-
----
-
-## Part 6 — Reflection
-
-![Part 6 Screenshot](screenshots/part6_reflection.png)
-
----
 
 ## Conclusion
 
