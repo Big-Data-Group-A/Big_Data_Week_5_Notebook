@@ -62,7 +62,7 @@ List comprehensions were used to filter temperatures based on specific condition
 - `hot` contains temperatures greater than or equal to 26 °C.
 - `cool_rounded` contains temperatures below 24 °C, rounded to the nearest integer.
 
-![Part 1.1 Screenshot](Screenshots/part1apng)
+![Part 1.1 Screenshot](Screenshots/part1a.png)
 
 ### Exercise 1.3 — Convert Types
 
@@ -73,7 +73,7 @@ A list comprehension converted the strings into floating-point numbers, and the 
 ```python
 raw = ["24.4", "25.9", "28.6", "19.3"]
 ```
-![Part 1.3Screenshot](screenshots/part1b.png)
+![Part 1.3Screenshot](Screenshots/part1b.png)
 
 
 ## Part 2 — Lambda Functions
@@ -109,7 +109,7 @@ Rainfall: 26.2 mm
 This exercise demonstrated how lambda functions can select records based on a particular value without writing a separate function.
 
 ---
-![Part 2Screenshot](screenshots/part2.png)
+![Part 2Screenshot](Screenshots/part2.png)
 
 ## Part 3 — NumPy Arrays
 
@@ -119,7 +119,7 @@ A performance test compared a traditional Python loop with a NumPy operation usi
 
 The NumPy operation multiplied the entire array by two using vectorized computation.
 
-![Part 3.1 Screenshot](screenshots/part3a.png)
+![Part 3.1 Screenshot](Screenshots/part3a.png)
 
 The results demonstrated how NumPy can perform numerical operations efficiently without explicitly iterating through every element in Python.
 
@@ -140,7 +140,7 @@ The following values were calculated:
 
 That position was then used to retrieve the corresponding date and temperature.
 
-![Part 3.2&3 Screenshot](screenshots/part3b.png)
+![Part 3.2&3 Screenshot](Screenshots/part3b.png)
 
 This exercise demonstrated how the same array position can be used to associate a temperature with its corresponding date.
 
@@ -154,7 +154,7 @@ A Boolean mask was created to identify temperatures greater than or equal to 26 
 
 The mask was used to count hot days and calculate their average temperature.
 
-![Part 4.1 Screenshot](screenshots/part4a.png)
+![Part 4.1 Screenshot](Screenshots/part4a.png)
 
 ### Exercise 4.2 — Rain Report
 
@@ -166,7 +166,7 @@ The analysis calculated:
 - Total rainfall across all 60 days
 - Heaviest single-day rainfall
 
-![Part 4.2 Screenshot](screenshots/part4b.png)
+![Part 4.2 Screenshot](Screenshots/part4b.png)
 
 ### Exercise 4.3 — Cross-Array Analysis
 
@@ -174,7 +174,7 @@ Masks created from the rainfall array were applied to the temperature array to c
 
 The analysis also counted days that were both hot and rainy and days with humidity greater than or equal to 70%.
 
-![Part 4.3 Screenshot](screenshots/part4c.png)
+![Part 4.3 Screenshot](Screenshots/part4c.png)
 
 This exercise demonstrated how Boolean masks can connect information across multiple arrays when the arrays represent the same observations in the same order.
 
@@ -197,7 +197,7 @@ The analysis identified:
 - Dates with temperatures more than 3 °C above the mean.
 - The number of days with temperatures more than 3 °C below the mean.
 
-![Part 5.1 Screenshot](screenshots/part5a.png)
+![Part 5.1 Screenshot](Screenshots/part5a.png)
 
 ### Exercise 5.2 — Is the Season Changing?
 
@@ -210,7 +210,7 @@ temps[30:]
 
 The average temperature for each period was calculated and compared to determine whether the second half of the dataset was warmer or cooler.
 
-![Part 5.2 Screenshot](screenshots/part5b.png)
+![Part 5.2 Screenshot](Screenshots/part5b.png)
 
 This comparison provides a simple way to investigate temperature changes over the observed period. It does not, by itself, establish a long-term seasonal or climate trend.
 
@@ -222,7 +222,7 @@ The `zip()` function was used to pair dates with rainfall values. The resulting 
 
 The five wettest days were then printed.
 
-![Part bonus ](screenshots/part-bonus.png)
+![Part bonus ](Screenshots/part-bonus.png)
 This exercise combined array data with Python's built-in sorting tools to rank weather events.
 
 ---
